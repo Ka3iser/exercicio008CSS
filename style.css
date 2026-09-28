@@ -10,18 +10,7 @@ header{
     background-color: #051342;
     height: 120px;
     width: 100%;
-}
-
-#logo{
-    height: 90px;
-    width: 220px;
-    margin: auto;
-}
-
-nav{
-    width: 31.5%;
-    height: 109px;
-    margin: auto;
+    text-align: center;
 }
 
 a{
@@ -107,7 +96,6 @@ section{
 }
 
 /* rodape */
-
 footer{
     background-color: #051342;
     text-align: center;
