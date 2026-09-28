@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* cabecalho */
+
+header{
+    background-color: #051342;
+    height: 120px;
+    width: 100%;
+}
+
+#logo{
+    height: 90px;
+    width: 220px;
+    margin: auto;
+}
+
+nav{
+    width: 31.5%;
+    height: 109px;
+    margin: auto;
+}
+
+a{
+    padding: 10px;
+    background-color: #1e6267;
+    color: white;
+    margin-bottom: 20px;
+}
+
+section{
+    height: 650px;
+    width: 100%;
+    display: inline-block;
+}
+
+/* seção inicial */
+
+#inicio{
+    background-image: url(./img/inicioBackground.jpg);
+    background-size: 100%;
+}
+
+#textoInicio{
+    margin-left: 50%;
+    color: white;
+    margin-top: 15%;
+    font-size: 36px;
+}
+
+/* seção personagens */
+
+#personagens{
+    background-image: url(./img/personagensBackground.jpg);
+    background-size: 100%;
+}
+/* serve pra centralizar os personagens */
+.card{
+    width: 1030px;
+    height: 400px;
+    margin: 125px auto;
+}
+/* parte onde fica o personagem dentro */
+.cardPersonagem{
+    display: inline-block;
+    background-color: #21949b;
+    height: 400px;
+    width: 300px;
+    margin: 0px 20px;
+    border-radius: 20px;
+}
+/* tentativa de centralizar as imagens */
+.personagemIMG{
+    margin: 20px 20px;
+}
+/* fica em cima da imagem e mostra o nome do personagem */
+.nome{
+    background-color: #1e6267;
+    height: 40px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+/* seção da sequencia */
+#sequencia{
+    background-image: url(./img/sequenciaBackground.webp);
+    background-size: 100%;
+}
+/* mini card pra sequencia */
+.cardJogos{
+    width: 45%;
+    background-color: #051342;
+    height: 110%;
+    margin: 0px 24px;
+    display: inline-block;
+    border-radius: 30px;
+}
+/* fundo do jogo */
+.gameThumb{
+    border-radius: 30px;
+    margin: 30px 0px 0px 40px;
+}
+
+/* rodape */
+
+footer{
+    background-color: #051342;
+    text-align: center;
+    color: white;
+}
