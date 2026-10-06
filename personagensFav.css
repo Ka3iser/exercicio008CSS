@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #051342;
+}
+
+/* cabecalho */
+
+header{
+    background-color: #040b25;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    gap: 30%;
+    align-items: center;
+}
+
+#logo{
+    margin: 2%;
+}
+
+nav a{
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #1e6267;
+    color: white;
+    margin: 5px;
+}
+
+#personagens{
+    height: 320vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 3%;
+}
+
+.cardPersonagem{
+    background-color: #21949b;
+    border-radius: 20px;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personagemIMG{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: #1e6267;
+    border-radius: 20px 20px 0px 0px;
+}
+.atributos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e6267;
+    border-radius: 0px 0px 20px 20px;
+    height: 110px;
+    gap: 7%;
+}
+
+.atributo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 130px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.prota{
+    background-color: aliceblue;
+}
+
+.npc{
+    background-color: gray;
+}
+
+.amigo{
+    background-color: orange;
+}
+
+.boss{
+    background-color: rgba(243, 66, 12, 0.836);
+}
+
+.estiloso{
+    background-color: rgb(99, 20, 99);
+    color: white;
+}
+
+.cantor{
+    background-color: rgb(57, 147, 231);
+}
+
+.treinador{
+    background-color: rgb(209, 38, 38);
+}
+
+footer{
+    background-color: #04091b;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#redesSociais{
+    width: 700px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;
+}
+
+#tecnologias{
+    width: 700px;
+}

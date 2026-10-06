@@ -3,101 +3,144 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* cabecalho */
-
 header{
-    background-color: #051342;
+    background-color: #040b25;
     height: 120px;
     width: 100%;
     text-align: center;
+    display: flex;
+    gap: 30%;
+    align-items: center;
 }
-
-a{
-    padding: 10px;
+#logo{
+    margin: 2%;
+}
+nav a{
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 10px;
     background-color: #1e6267;
     color: white;
-    margin-bottom: 20px;
+    margin: 5px;
 }
 
+a:hover{
+    transform: scale(30px);
+}
 section{
-    height: 650px;
+    height: 700px;
     width: 100%;
     display: inline-block;
 }
-
 /* seção inicial */
-
 #inicio{
     background-image: url(./img/inicioBackground.jpg);
     background-size: 100%;
 }
-
 #textoInicio{
     margin-left: 50%;
     color: white;
     margin-top: 15%;
     font-size: 36px;
 }
-
 /* seção personagens */
-
 #personagens{
     background-image: url(./img/personagensBackground.jpg);
     background-size: 100%;
 }
 /* serve pra centralizar os personagens */
 .card{
-    width: 1030px;
-    height: 400px;
-    margin: 125px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
 }
 /* parte onde fica o personagem dentro */
 .cardPersonagem{
-    display: inline-block;
     background-color: #21949b;
     height: 400px;
     width: 300px;
     margin: 0px 20px;
     border-radius: 20px;
 }
-/* tentativa de centralizar as imagens */
+/* imagem do personagem */
 .personagemIMG{
-    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
 }
 /* fica em cima da imagem e mostra o nome do personagem */
 .nome{
     background-color: #1e6267;
     height: 40px;
+    width: 300px;
     border-radius: 20px 20px 0px 0px;
     text-align: center;
     font-size: 30px;
     color: white;
 }
-
 /* seção da sequencia */
 #sequencia{
     background-image: url(./img/sequenciaBackground.webp);
     background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* mini card pra sequencia */
 .cardJogos{
-    width: 45%;
+    width: 25%;
     background-color: #051342;
-    height: 110%;
+    height: 80%;
     margin: 0px 24px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
     border-radius: 30px;
 }
 /* fundo do jogo */
 .gameThumb{
     border-radius: 30px;
-    margin: 30px 0px 0px 40px;
+    width: 350px;
+    height: 350px;
+}
+
+.gameName{
+    font-size: 35px;
+    color: white;
 }
 
 /* rodape */
 footer{
-    background-color: #051342;
+    background-color: #04091b;
     text-align: center;
     color: white;
+    font-size: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#redesSociais{
+    width: 700px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;
+}
+
+#tecnologias{
+    width: 700px;
 }
